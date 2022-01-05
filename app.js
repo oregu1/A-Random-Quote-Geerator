@@ -1,0 +1,1 @@
+const APIURL = 'https://api.quotable.io/random';
