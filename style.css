@@ -11,6 +11,55 @@ body {
     min-height: 100vh;
     background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(14,174,87,1) 0%, rgba(12,116,117,1) 90% );
 }
+/* Container-block */
+.container {
+    max-width: 550px;
+    width: 100%;
+    max-height: 400px;
+    height: 100%;
+    background-color: #fff;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+}
 .container header h1 {
     font-weight: 700;
+}
+
+
+/* Buttons-area */
+.buttons-area {
+    display: flex;
+    justify-content: space-between;
+}
+.buttons {
+    display: flex;
+}
+.buttons button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgba(14,174,87,1);
+    outline: none;
+    background-color: transparent;
+    border-radius: 50%;
+    border: 2px solid rgba(14,174,87,1);
+    width: 40px;
+    height: 40px;
+    margin-right: 5px;
+    cursor: pointer;
+    transition: all .3s linear;
+}
+.buttons button:hover {
+    color: #fff;
+    background-color: rgba(14,174,87,1);
+}
+.get-quote-btn {
+    background-color: rgba(14,174,87,1);
+    color: #fff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 20px;
 }
